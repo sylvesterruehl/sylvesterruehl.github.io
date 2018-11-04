@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Sylvester Ruehl Experience</title>
+    <meta name="description" content="Hello, WebVR! • A-Frame">
+    <script src="https://aframe.io/releases/0.8.2/aframe.min.js"></script>
+  </head>
+  <body>
+    <a-scene background="color: #ECECEC">
+
+      <!-- Asset Manager -->
+      <a-assets>
+
+        <!-- ROOM 1 / HALLWAY -->
+        <img id="000image" src="art/DianPelangi.jpg">
+        <img id="001image" src="art/TheMark.jpg">
+        <img id="002image" src="art/AllSeeing.jpg">
+        <img id="003image" src="art/DayDream.jpg">
+        <img id="004image" src="art/DSC00035.jpg">
+
+        <!-- ROOM 2 -->
+        <img id="005image" src="art/ScissorsWithMusicAndArt.jpg">
+        <img id="006image" src="art/TheMark.jpg">
+        <img id="007image" src="art/TheMark.jpg">
+        <img id="008image" src="art/TheMark.jpg">
+        <img id="009image" src="art/TheMark.jpg">
+
+        <!-- ROOM 3 -->
+        <img id="010image" src="art/TheMark.jpg">
+        <img id="011image" src="art/TheMark.jpg">
+        <img id="012image" src="art/TheMark.jpg">
+        <img id="013image" src="art/TheMark.jpg">
+        <img id="014image" src="art/TheMark.jpg">
+
+        <!-- ROOM 4 -->
+        <img id="015image" src="art/TheMark.jpg">
+        <img id="016image" src="art/TheMark.jpg">
+        <img id="017image" src="art/TheMark.jpg">
+        <img id="018image" src="art/TheMark.jpg">
+        <img id="019image" src="art/TheMark.jpg">
+
+        <!-- ROOM 5 -->
+        <img id="020image" src="art/TheMark.jpg">
+        <img id="021image" src="art/TheMark.jpg">
+        <img id="022image" src="art/TheMark.jpg">
+        <img id="023image" src="art/TheMark.jpg">
+        <img id="024image" src="art/TheMark.jpg">
+
+        <!-- ROOM 6 -->
+        <img id="025image" src="art/TheMark.jpg">
+        <img id="026image" src="art/TheMark.jpg">
+        <img id="027image" src="art/TheMark.jpg">
+        <img id="028image" src="art/TheMark.jpg">
+        <img id="029image" src="art/TheMark.jpg">
+
+
+      </a-assets>
+
+      <!-- Using the asset management system. -->
+      <a-entity>
+        <a-image position="-1 1.5 -1" src="#000image"></a-image>
+        <a-animation attribute="rotation"
+                     dur="1000"
+                     fill="forwards"
+                     to="0 360 0"
+                     repeat="indefinite"></a-animation>
+      </a-entity>
+
+      <a-entity>
+        <a-image position="0 1.5 -1" src="#005image"></a-image>
+        <a-animation attribute="rotation"
+                     dur="4000"
+                     fill="forwards"
+                     to="0 360 0"
+                     repeat="indefinite"></a-animation>
+      </a-entity>
+
+      <a-image position="1 1.5 -1" src="#001image"></a-image>
+
+
+      <a-entity>
+        <a-image position="2 1.5 -1" src="#002image"></a-image>
+        <a-animation attribute="rotation"
+                     dur="7000"
+                     fill="forwards"
+                     to="0 360 0"
+                     repeat="indefinite"></a-animation>
+      </a-entity>
+
+      <a-entity>
+        <a-image position="3 1.5 -1" src="#003image"></a-image>
+        <a-animation attribute="rotation"
+                     dur="8000"
+                     fill="forwards"
+                     to="0 360 0"
+                     repeat="indefinite"></a-animation>
+      </a-entity>
+
+
+      <a-entity>
+        <a-image position="4 1.5 -1" src="#004image"></a-image>
+        <a-animation attribute="rotation"
+                     dur="9000"
+                     fill="forwards"
+                     to="0 360 0"
+                     repeat="indefinite"></a-animation>
+      </a-entity>
+
+
+      
+
+
+
+
+
+      <!-- <a-box position="-1 0.5 -3" rotation="0 45 0" color="#4CC3D9" shadow></a-box> -->
+      <a-sphere position="0 1.25 -5" radius="1.25" color="#EF2D5E" shadow></a-sphere>
+      <a-cylinder position="1 0.75 -3" radius="0.5" height="1.5" color="#FFC65D" shadow></a-cylinder>
+      <a-plane position="0 0 -4" rotation="-90 0 0" width="100" height="100" color="#A9A9A9" shadow></a-plane>
+
+
+
+
+    </a-scene>
+  </body>
+</html>
