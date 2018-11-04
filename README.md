@@ -1,5 +1,13 @@
 # sylvesterruehl.github.io
-Personal Website
+Professional Website
 
+Site Includes:
 
-Personal Website will be used for general consulting, finding clients, and showing what I do for hobbies!
+  - Original Composed Music
+  - Virtual Reality Space
+  - Resume with Downloadable link
+  - Videos for digital marketing
+  - Link to Instagram account
+  - Originally edited video
+  - Widget which automatically emails me when a new client finds website.
+  - Downloadable business card.
